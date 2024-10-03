@@ -1,0 +1,32 @@
+<aiml version="1.0.1" encoding="UTF-8">
+    <!-- Category to identify a cue for common symptoms -->
+    <category>
+        <pattern>HELLO</pattern>
+        <template>Hello, how can I assist you today?</template>
+    </category>
+    
+    <category>
+        <pattern>WHAT CAN I DO FOR A HEADACHE</pattern>
+        <template>For a headache, ensure you rest and stay hydrated. If the pain persists, consult a doctor.</template>
+    </category>
+    
+    <category>
+        <pattern>MY HEAD HURTS</pattern>
+        <template>It sounds like you might have a headache. Try resting, and if it continues, seek medical advice.</template>
+    </category>
+
+    <category>
+        <pattern>WHAT SHOULD I DO IF I HAVE A FEVER</pattern>
+        <template>If you have a fever, drink fluids and take fever-reducing medicine like paracetamol. Consult your doctor if it lasts more than two days.</template>
+    </category>
+    
+    <category>
+        <pattern>BYE</pattern>
+        <template>Goodbye! I hope you feel better soon.</template>
+    </category>
+
+    <category>
+        <pattern>I AM SUFFERING FROM COLD</pattern>
+        <template>You might be suffering from flu. Go to Doctor.</template>
+    </category>
+</aiml>
