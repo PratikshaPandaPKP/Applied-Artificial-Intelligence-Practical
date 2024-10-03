@@ -1,0 +1,49 @@
+<aiml version="1.0.1" encoding="UTF-8">
+    <!-- Greeting -->
+    <category>
+        <pattern>HELLO</pattern>
+        <template>Hello! How can I help you today?</template>
+    </category>
+
+    <!-- Handle "hi" -->
+    <category>
+        <pattern>HI</pattern>
+        <template>Hello! How are you?</template>
+    </category>
+
+    <!-- Respond to the name question -->
+    <category>
+        <pattern>WHAT IS YOUR NAME</pattern>
+        <template>My name is AI Bot.</template>
+    </category>
+
+    <!-- Respond to "who are you" -->
+    <category>
+        <pattern>WHO ARE YOU</pattern>
+        <template>I am an AI created to assist you.</template>
+    </category>
+
+    <!-- Respond to "how are you" -->
+    <category>
+        <pattern>HOW ARE YOU</pattern>
+        <template>I'm doing great! How about you?</template>
+    </category>
+
+    <!-- Handle "ok" input -->
+    <category>
+        <pattern>OK</pattern>
+        <template>Alright! Is there anything else you want to ask?</template>
+    </category>
+
+    <!-- Handle "bye" input -->
+    <category>
+        <pattern>BYE</pattern>
+        <template>Goodbye! Have a great day!</template>
+    </category>
+
+    <!-- Handle unknown input -->
+    <category>
+        <pattern>*</pattern>
+        <template>Sorry, I don't understand that.</template>
+    </category>
+</aiml>
